@@ -2,236 +2,164 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy — OfficeAI</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informativa privacy - OfficeAI</title>
 <style>
-  :root {
-    --petrol: #1B4D5C;
-    --paper: #F5F0E8;
-    --mustard: #D4A03C;
-    --testo: #2C2C2C;
-    --testo-attenuato: #666666;
-    --errore: #B5453A;
-    --successo: #3E8F5C;
-  }
+  :root { --petrol:#1B4D5C; --paper:#F5F0E8; --mustard:#D4A03C; --testo:#2C2C2C; --tenue:#666; --bordo:#E2DACB; }
   * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--paper);
-    color: var(--testo);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-  }
-  header {
-    background: var(--petrol);
-    color: #fff;
-    padding: 40px 24px;
-  }
-  header .contenuto {
-    max-width: 760px;
-    margin: 0 auto;
-  }
-  header h1 {
-    margin: 0 0 8px;
-    font-size: 1.8rem;
-  }
-  header p {
-    margin: 0;
-    color: #d9e6e9;
-    font-size: 0.95rem;
-  }
-  main {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 32px 24px 80px;
-  }
-  .riepilogo {
-    background: #fff;
-    border: 1px solid rgba(0,0,0,0.08);
-    border-left: 4px solid var(--mustard);
-    border-radius: 8px;
-    padding: 20px 24px;
-    margin-bottom: 40px;
-  }
-  .riepilogo h2 {
-    margin-top: 0;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: var(--testo-attenuato);
-  }
-  h2 {
-    color: var(--petrol);
-    border-bottom: 2px solid rgba(27,77,92,0.15);
-    padding-bottom: 8px;
-    margin-top: 48px;
-  }
-  h3 {
-    color: var(--petrol);
-    margin-top: 28px;
-    font-size: 1.05rem;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 16px 0;
-    background: #fff;
-  }
-  th, td {
-    text-align: left;
-    padding: 10px 12px;
-    border: 1px solid rgba(0,0,0,0.1);
-    font-size: 0.95rem;
-    vertical-align: top;
-  }
-  th {
-    background: rgba(27,77,92,0.06);
-    color: var(--petrol);
-  }
-  ul {
-    padding-left: 20px;
-  }
-  li {
-    margin-bottom: 6px;
-  }
-  .non-fa {
-    background: #fff;
-    border: 1px solid rgba(62,143,92,0.3);
-    border-radius: 8px;
-    padding: 16px 20px;
-  }
-  .non-fa li::marker {
-    color: var(--successo);
-  }
-  .nota {
-    background: rgba(212,160,60,0.12);
-    border: 1px solid rgba(212,160,60,0.4);
-    border-radius: 8px;
-    padding: 14px 18px;
-    font-size: 0.95rem;
-  }
-  a { color: var(--petrol); }
-  footer {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 24px;
-    color: var(--testo-attenuato);
-    font-size: 0.85rem;
-    border-top: 1px solid rgba(0,0,0,0.08);
-  }
-  code {
-    background: rgba(0,0,0,0.06);
-    padding: 1px 6px;
-    border-radius: 4px;
-    font-size: 0.9em;
-  }
+  body { margin:0; background:var(--paper); color:var(--testo); font:16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  header { background:var(--petrol); color:#fff; padding:28px 16px 22px; }
+  header .w, main { max-width:820px; margin:0 auto; }
+  header h1 { margin:0 0 4px; font-size:26px; }
+  header p { margin:0; color:var(--mustard); }
+  main { padding:16px; }
+  h2 { color:var(--petrol); font-size:19px; margin:30px 0 8px; border-bottom:2px solid var(--mustard); padding-bottom:4px; }
+  h3 { font-size:16px; margin:18px 0 4px; }
+  .box { background:#fff; border:1px solid var(--bordo); border-radius:10px; padding:14px 16px; }
+  .eccezione { border-left:4px solid var(--mustard); background:#fff; padding:10px 14px; margin:10px 0; border-radius:0 8px 8px 0; }
+  table { width:100%; border-collapse:collapse; background:#fff; font-size:15px; }
+  th, td { border:1px solid var(--bordo); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:var(--petrol); color:#fff; font-weight:600; }
+  .tabella { overflow-x:auto; }
+  footer { text-align:center; color:var(--tenue); font-size:13px; padding:28px 16px 40px; }
+  a { color:var(--petrol); overflow-wrap:anywhere; }
 </style>
 </head>
 <body>
-
-<header>
-  <div class="contenuto">
-    <h1>Privacy Policy — OfficeAI</h1>
-    <p>Ultimo aggiornamento: 16/09/2026 · Versione: 1.0.0</p>
-  </div>
-</header>
-
+<header><div class="w">
+  <h1>Informativa sulla privacy - OfficeAI</h1>
+  <p>Email con AI per uffici e PMI · ultimo aggiornamento: 14 ottobre 2026</p>
+</div></header>
 <main>
 
-  <div class="riepilogo">
-    <h2>In breve</h2>
-    <p>OfficeAI legge le email delle caselle Gmail/Outlook che colleghi tu, per classificarle e preparare bozze di risposta. Il testo delle email viene elaborato anche da un servizio AI esterno (NVIDIA) per la classificazione e la generazione delle bozze. <strong>Nessuna risposta viene mai inviata automaticamente</strong>: parte solo dopo che la approvi esplicitamente tu, ogni volta. I dati restano sul tuo dispositivo; non c'è un server di OfficeAI che li conserva.</p>
-  </div>
-
-  <h2>1. Titolare del trattamento</h2>
-  <p>Il titolare del trattamento dei dati è Hubert Montero (Lord), sviluppatore indipendente, operante sotto regime forfettario, distributore di OfficeAI tramite il marketplace <a href="https://marketplace-apps.com">marketplace-apps.com</a>. Per qualunque richiesta relativa ai tuoi dati, vedi la sezione Contatti in fondo a questa pagina.</p>
-
-  <h2>2. Quali dati tratta l'app</h2>
-
-  <h3>2.1 Account email che colleghi (Gmail / Outlook)</h3>
-  <p>Quando colleghi una casella, OfficeAI usa l'autenticazione ufficiale di Google o Microsoft (OAuth) per accedere alla tua posta con i permessi che concedi (lettura e invio email). OfficeAI non vede né conserva mai la tua password: l'accesso avviene tramite il flusso di login di Google/Microsoft, mai inserendo credenziali dentro l'app. Il token di accesso ottenuto viene salvato in forma cifrata solo sul tuo dispositivo (storage sicuro del sistema operativo), non su un server di OfficeAI.</p>
-
-  <h3>2.2 Contenuto delle email</h3>
-  <p>Mittente, oggetto e testo delle email che importi vengono salvati in un database locale sul tuo dispositivo, per poterli consultare, classificare e rispondere anche offline. Questi dati non vengono caricati su nessun server di OfficeAI.</p>
-
-  <h3>2.3 Classificazione, estrazione dati e bozze di risposta con AI (eccezione: i dati escono dal dispositivo)</h3>
-  <p>Per classificare un'email, estrarne i dati rilevanti e generare una bozza di risposta, il testo dell'email (mittente, oggetto, corpo) viene inviato al servizio AI di NVIDIA (modello DeepSeek V4 Pro, endpoint <code>integrate.api.nvidia.com</code>) per l'elaborazione. È l'unico momento in cui il contenuto di un'email lascia il tuo dispositivo verso un server non tuo. Il trasferimento può comportare l'invio dei dati verso infrastrutture al di fuori dell'Unione Europea. NVIDIA elabora la richiesta per generare la risposta e non è controllata da OfficeAI: per i dettagli sul trattamento lato NVIDIA, consulta la loro informativa privacy.</p>
-
-  <h3>2.4 Invio delle risposte</h3>
-  <p>Quando approvi una bozza, OfficeAI la invia usando la tua stessa casella Gmail/Outlook (tramite il token OAuth che hai autorizzato) — la risposta risulta inviata da te, con il tuo account, non da un server di OfficeAI. L'invio avviene solo ed esclusivamente dopo la tua approvazione esplicita: l'app non invia mai nulla da sola.</p>
-
-  <h3>2.5 Chiave API AI e licenza</h3>
-  <p>La chiave API NVIDIA che inserisci nelle Impostazioni è salvata in forma cifrata solo sul tuo dispositivo. La chiave di licenza del piano a pagamento viene verificata interamente offline sul dispositivo (nessuna chiamata a un server di OfficeAI per validarla).</p>
-
-  <h3>2.6 Cosa l'app NON fa</h3>
-  <div class="non-fa">
-    <ul>
-      <li>Non invia mai una risposta senza la tua approvazione esplicita, per nessun piano.</li>
-      <li>Non include strumenti di analisi/tracciamento del comportamento (analytics, pubblicità).</li>
-      <li>Non conserva le tue credenziali Gmail/Outlook: l'accesso passa sempre dal login ufficiale di Google/Microsoft.</li>
-      <li>Non condivide il contenuto delle tue email con altri utenti o con terzi, salvo l'invio al servizio AI descritto al punto 2.3, necessario per generare classificazione ed estrazione dati.</li>
-    </ul>
-  </div>
-
-  <h2>3. Base giuridica e finalità</h2>
-  <table>
-    <tr><th>Finalità</th><th>Base giuridica</th></tr>
-    <tr><td>Importare e mostrare le email delle caselle collegate</td><td>Esecuzione di un contratto (art. 6.1.b GDPR) — necessario per il funzionamento dell'app che hai richiesto</td></tr>
-    <tr><td>Classificazione, estrazione dati e generazione bozze con AI</td><td>Esecuzione di un contratto (art. 6.1.b GDPR)</td></tr>
-    <tr><td>Invio delle risposte approvate</td><td>Esecuzione di un contratto (art. 6.1.b GDPR), su tua azione esplicita</td></tr>
-    <tr><td>Gestione dell'abbonamento Premium (Basic/Pro/Business)</td><td>Esecuzione di un contratto (art. 6.1.b GDPR)</td></tr>
-    <tr><td>Sicurezza dell'app e prevenzione di usi impropri</td><td>Legittimo interesse (art. 6.1.f GDPR)</td></tr>
-  </table>
-
-  <h2>4. Per quanto tempo restano i dati</h2>
-  <p>Email, classificazioni, bozze, template e storico restano sul tuo dispositivo finché non li elimini tu (disinstallando l'app o cancellandoli manualmente). Il testo inviato al servizio AI per l'elaborazione (punto 2.3) non è conservato da OfficeAI: la richiesta serve solo a generare la risposta di quel momento. Per quanto NVIDIA conservi le richieste sui propri sistemi, fa riferimento alla loro informativa.</p>
-
-  <h2>5. Destinatari e trasferimenti</h2>
-  <p>I tuoi dati vengono trattati da:</p>
+<h2>In breve</h2>
+<div class="box">
   <ul>
-    <li><strong>Google (Gmail) / Microsoft (Outlook)</strong>: per l'accesso OAuth e la lettura/invio delle tue email, secondo le rispettive informative privacy.</li>
-    <li><strong>NVIDIA</strong>: per l'elaborazione AI del testo delle email (classificazione, estrazione dati, bozze di risposta) — vedi punto 2.3.</li>
-    <li><strong>PayPal</strong>: per il pagamento dell'abbonamento Premium — vedi sezione 7.</li>
+    <li>OfficeAI si collega alle caselle <strong>Gmail</strong> e <strong>Outlook</strong> che scegli tu, con l'accesso che autorizzi nella schermata di Google o Microsoft. Non serve un account OfficeAI.</li>
+    <li><strong>Email, classificazioni, dati estratti e bozze restano sul tuo dispositivo</strong> (telefono o browser). Lo sviluppatore non ha un server che conserva le tue email.</li>
+    <li>Il testo di un'email esce dal dispositivo verso il servizio di intelligenza artificiale <strong>solo quando premi tu</strong> "Classifica", "Estrai dati" o "Prepara bozza", e solo per quell'email.</li>
+    <li><strong>Nessuna email parte da sola</strong>: una risposta viene inviata solo dopo che l'hai letta e approvata esplicitamente, ogni volta.</li>
+    <li>Nessuna pubblicità, nessuna vendita di dati, nessun tracciamento.</li>
+    <li>Le email contengono dati di altre persone (clienti, fornitori, colleghi): per quei dati il titolare del trattamento è <strong>la tua azienda</strong>, che usa OfficeAI come strumento.</li>
   </ul>
-  <p>OfficeAI non vende né cede i tuoi dati a terzi per finalità di marketing.</p>
+</div>
 
-  <h2>6. Distribuzione</h2>
-  <p>OfficeAI è distribuita esclusivamente tramite <a href="https://marketplace-apps.com">marketplace-apps.com</a>, non tramite Google Play o altri store. Installandola, Android può mostrare un avviso relativo a "origini sconosciute" o alla scansione Play Protect: è normale per qualunque app non installata dal Play Store e non indica un problema di sicurezza. Lo sviluppatore è registrato al programma Android Developer Verification di Google (chiave pubblica associata al pacchetto <code>com.officeai.app</code>), ma questo non è un'approvazione dei contenuti dell'app da parte di Google né un collegamento al Play Store.</p>
+<h2>1. Chi tratta i dati e con quale ruolo</h2>
+<h3>1.1 Lo sviluppatore</h3>
+<p><strong>Hubert Montero</strong> - sviluppatore indipendente, Ariccia (RM) - OfficeAI<br>
+Email: <a href="mailto:premium@marketplace-apps.com">premium@marketplace-apps.com</a></p>
+<p>Lo sviluppatore è <strong>titolare del trattamento</strong> solo per i dati che servono a lui per fornirti l'app: controllo degli aggiornamenti, licenza e pagamento (sezioni 2.6 e 2.7).</p>
 
-  <h2>7. Il pagamento dell'abbonamento Premium</h2>
-  <p>OfficeAI si scarica gratuitamente. I piani Basic, Pro e Business sono abbonamenti mensili a pagamento, attivabili dalla pagina dedicata su marketplace-apps.com tramite PayPal. OfficeAI non memorizza né gestisce direttamente i tuoi dati di pagamento: la transazione passa interamente da PayPal, secondo la loro informativa privacy. Dopo il pagamento ricevi via email una chiave di licenza, verificata offline dall'app.</p>
+<h3>1.2 La tua azienda</h3>
+<p>Per i dati personali contenuti nelle email (nomi, indirizzi email, numeri di telefono, contenuto dei messaggi di clienti, fornitori e colleghi) il <strong>titolare del trattamento è l'azienda o il professionista che usa OfficeAI</strong>: è lui che decide quali caselle collegare, quali email analizzare e a chi rispondere. Spetta a lui informare i propri interlocutori e verificare di poter usare strumenti di intelligenza artificiale su quella corrispondenza.</p>
 
-  <h2>8. I tuoi diritti</h2>
-  <p>Il GDPR ti riconosce il diritto di:</p>
-  <table>
-    <tr><th>Diritto</th><th>Come</th></tr>
-    <tr><td>Accesso ai tuoi dati (art. 15)</td><td>I dati sono già visibili nell'app (email, storico); per la copia della chiave di licenza scrivi a noi (vedi Contatti)</td></tr>
-    <tr><td>Rettifica (art. 16)</td><td>Modifica direttamente in app le bozze, i template e i dati collegati</td></tr>
-    <tr><td>Cancellazione (art. 17)</td><td>Elimina email/template dall'app, o disinstalla l'app per rimuovere tutti i dati locali</td></tr>
-    <tr><td>Revoca dell'accesso OAuth</td><td>Da Impostazioni dell'app (scollega la casella) o direttamente dal tuo account Google/Microsoft</td></tr>
-  </table>
-  <p>Rispondiamo entro 30 giorni, come previsto dall'art. 12 GDPR. Hai anche diritto di proporre reclamo al Garante per la protezione dei dati personali.</p>
+<h3>1.3 Quando usi le funzioni AI</h3>
+<p>Quando avvii una funzione AI, il testo dell'email passa per un servizio dello sviluppatore ospitato sul sito marketplace-apps.com, che lo inoltra al fornitore AI e ti restituisce il risultato senza conservarlo. Per questo passaggio lo sviluppatore tratta i dati <strong>per conto della tua azienda</strong>, cioè come <strong>responsabile del trattamento</strong> ai sensi dell'art. 28 del Regolamento (UE) 2016/679 (GDPR), e il fornitore AI interviene come ulteriore fornitore tecnico (sezione 6). Se la tua azienda ha bisogno di un accordo scritto sul trattamento dei dati, scrivi a <a href="mailto:premium@marketplace-apps.com">premium@marketplace-apps.com</a>.</p>
 
-  <h2>9. Sicurezza</h2>
-  <p>I token di accesso OAuth e la chiave API AI sono salvati in forma cifrata tramite lo storage sicuro del sistema operativo (Keystore Android), non in chiaro nel database dell'app. La verifica della licenza avviene offline, senza trasmettere la chiave a nessun server.</p>
+<h2>2. Quali dati tratta l'app</h2>
 
-  <h2>10. Minori</h2>
-  <p>OfficeAI è pensata per un uso professionale (PMI e uffici) e non è rivolta a minori. Non raccogliamo consapevolmente dati di minori.</p>
+<h3>2.1 Caselle collegate e credenziali di accesso</h3>
+<p>Indirizzo della casella e tipo di servizio (Gmail o Outlook). L'accesso avviene con l'autorizzazione ufficiale di Google o Microsoft (OAuth): <strong>OfficeAI non vede e non salva la tua password</strong>. I codici di accesso (token) rilasciati da Google o Microsoft sono salvati nell'archivio protetto del dispositivo e servono solo per leggere la posta e inviare le risposte che approvi.</p>
 
-  <h2>11. OfficeAI non è un servizio di consulenza legale o commerciale</h2>
-  <p>Le classificazioni e le bozze di risposta generate dall'AI sono un aiuto per velocizzare il lavoro, non un parere legale, contrattuale o commerciale. Prima di inviare una risposta, verificane sempre il contenuto: l'approvazione finale — e la responsabilità di quanto scritto — resta tua.</p>
+<h3>2.2 Email</h3>
+<p>Mittente, destinatari, oggetto, data e testo delle email delle caselle collegate. L'app le scarica direttamente da Google o Microsoft e le salva nel database dell'app sul tuo dispositivo, per mostrartele e lavorarci.</p>
 
-  <h2>12. Modifiche a questa informativa</h2>
-  <p>Questa informativa può essere aggiornata in futuro, ad esempio se cambiano le funzionalità dell'app o i servizi terzi usati. La versione aggiornata sarà sempre disponibile a questo stesso indirizzo, con la data dell'ultimo aggiornamento in cima alla pagina.</p>
+<h3>2.3 Risultati del lavoro</h3>
+<p>Categoria assegnata a ogni email, dati estratti (per esempio importi, date, numeri d'ordine, riferimenti del cliente), bozze di risposta, modelli di risposta che crei e lo storico delle operazioni. Restano sul dispositivo.</p>
 
-  <h2>13. Contatti</h2>
-  <p>Per qualunque domanda su questa informativa o sui tuoi dati, scrivi a: <a href="mailto:premium@marketplace-apps.com">premium@marketplace-apps.com</a></p>
+<div class="eccezione">
+<strong>Quando il testo di un'email esce dal dispositivo (solo per tua scelta)</strong>
+<ul>
+  <li><strong>Funzioni AI</strong>: quando premi "Classifica", "Estrai dati" o "Prepara bozza", l'app invia il testo di <strong>quell'email</strong> (mittente, oggetto e corpo) al servizio dello sviluppatore su marketplace-apps.com, ospitato da Vercel, che lo inoltra al servizio di intelligenza artificiale di <strong>NVIDIA</strong> (modello DeepSeek). Il risultato torna nell'app. Il servizio dello sviluppatore non salva il testo delle email. Senza la tua azione nessuna email viene inviata all'AI.</li>
+  <li><strong>Conservazione presso il fornitore AI</strong>: alle condizioni attualmente applicabili al servizio NVIDIA usato da OfficeAI, NVIDIA può conservare i contenuti ricevuti fino a 30 giorni e può usarli, senza identificare gli utenti, per migliorare i propri servizi. Per questo ti chiediamo di <strong>non usare le funzioni AI su email che contengono dati sanitari, dati giudiziari, dati di minori o altre informazioni particolarmente delicate</strong>.</li>
+  <li><strong>Invio delle risposte</strong>: quando approvi una bozza e premi "Invia", il messaggio viene spedito tramite Gmail o Outlook dalla tua casella, come se lo scrivessi tu.</li>
+</ul>
+</div>
+
+<h3>2.4 Le risposte partono solo con la tua approvazione</h3>
+<p>Le bozze preparate dall'AI sono proposte: possono contenere errori o informazioni imprecise. L'app non invia mai una risposta in automatico, né in background né a orari programmati. Ogni invio richiede che tu apra la bozza, la controlli (e se vuoi la modifichi) e confermi l'invio. Sei tu responsabile di ciò che invii.</p>
+
+<h3>2.5 Nessuna decisione automatizzata</h3>
+<p>La classificazione e l'estrazione dei dati servono solo a ordinare la posta e a preparare proposte. L'app non prende decisioni che producono effetti giuridici sulle persone: ogni decisione resta a te.</p>
+
+<h3>2.6 Controllo degli aggiornamenti (app Android)</h3>
+<p>All'avvio l'app chiede a marketplace-apps.com qual è l'ultima versione disponibile e, se ce n'è una nuova, scarica il file di installazione da files.marketplace-apps.com. Il server riceve l'indirizzo IP e le informazioni tecniche standard di una connessione web. Nessuna email e nessun dato delle tue caselle viene inviato.</p>
+
+<h3>2.7 Licenza e pagamento</h3>
+<p>I piani Basic, Pro e Business (mensili o annuali, con prova di 30 giorni) si acquistano sul sito con PayPal. Lo sviluppatore riceve l'indirizzo email del pagamento, il piano acquistato e i dati necessari per emettere la licenza e per gli obblighi fiscali; <strong>non riceve i dati della tua carta o del tuo conto</strong>. La licenza è gestita da un servizio dello sviluppatore su Cloudflare e la chiave viene inviata alla tua email tramite il servizio di posta Resend.</p>
+
+<h3>2.8 Versione web</h3>
+<p>Nella versione web, usata dal browser su marketplace-apps.com, email, risultati e credenziali di accesso restano nella memoria del browser su quel dispositivo. Se cancelli i dati del sito dal browser, li perdi e dovrai ricollegare le caselle. Usa la versione web solo su un computer personale e protetto; evita i computer condivisi. Eventuali cookie usati dalla versione web sono solo tecnici (per esempio per ricordare la licenza).</p>
+
+<h2>3. Dati di Google e di Microsoft</h2>
+<h3>3.1 Gmail</h3>
+<p>OfficeAI chiede a Google solo i permessi necessari per leggere i messaggi della casella collegata e per inviare le risposte che approvi. I dati ricevuti dalle API di Google sono usati <strong>solo per le funzioni dell'app che vedi</strong> (mostrare, classificare, estrarre, preparare e inviare risposte). OfficeAI non usa i dati Google per pubblicità, non li vende, non li cede a intermediari di dati e lo sviluppatore non li legge. Lo sviluppatore non usa i dati Google per addestrare modelli di intelligenza artificiale.</p>
+
+<h3>3.2 Outlook / Microsoft 365</h3>
+<p>Per Outlook l'app usa Microsoft Graph con i permessi delegati che autorizzi tu (lettura della posta e invio per tuo conto). Valgono le stesse regole: uso solo per le funzioni dell'app, niente pubblicità, niente vendita. Se la casella è aziendale, l'amministratore del tuo tenant Microsoft può dover approvare l'app.</p>
+
+<h3>3.3 Come revocare l'accesso</h3>
+<p>Puoi scollegare una casella dalle impostazioni di OfficeAI: i token vengono cancellati dal dispositivo. Puoi anche revocare l'accesso in qualsiasi momento dalle impostazioni di sicurezza del tuo account Google (app di terze parti con accesso all'account) o del tuo account Microsoft (app con accesso all'account).</p>
+
+<h2>4. Finalità e base giuridica</h2>
+<div class="tabella"><table>
+  <tr><th>Trattamento</th><th>Finalità</th><th>Ruolo dello sviluppatore e base giuridica</th></tr>
+  <tr><td>Email e risultati salvati sul dispositivo</td><td>Gestire la posta della tua azienda</td><td>Trattamento sotto il controllo della tua azienda, che ne è titolare; lo sviluppatore non vi accede</td></tr>
+  <tr><td>Inoltro del testo al fornitore AI</td><td>Classificare, estrarre dati, preparare bozze, su tua richiesta</td><td>Lo sviluppatore agisce come responsabile per conto della tua azienda (art. 28 GDPR); la base giuridica la individua la tua azienda come titolare</td></tr>
+  <tr><td>Controllo aggiornamenti</td><td>Fornire versioni corrette e sicure dell'app</td><td>Titolare; legittimo interesse (art. 6, par. 1, lett. f GDPR)</td></tr>
+  <tr><td>Licenza e pagamento</td><td>Attivare e gestire il piano acquistato</td><td>Titolare; esecuzione di un contratto (art. 6, par. 1, lett. b GDPR)</td></tr>
+  <tr><td>Conservazione dei dati di pagamento</td><td>Obblighi fiscali e contabili</td><td>Titolare; obbligo legale (art. 6, par. 1, lett. c GDPR)</td></tr>
+</table></div>
+
+<h2>5. Per quanto tempo restano i dati</h2>
+<ul>
+  <li><strong>Email, risultati e bozze</strong>: sul dispositivo finché non li cancelli, scolleghi la casella o disinstalli l'app (versione web: finché non cancelli i dati del sito).</li>
+  <li><strong>Token di accesso</strong>: finché la casella resta collegata o finché non revochi l'accesso.</li>
+  <li><strong>Testo inviato per le funzioni AI</strong>: il servizio dello sviluppatore non lo conserva; presso NVIDIA vale quanto indicato nel riquadro della sezione 2.</li>
+  <li><strong>Dati di licenza e pagamento</strong>: per la durata della licenza e poi per il tempo richiesto dagli obblighi fiscali.</li>
+</ul>
+
+<h2>6. Fornitori coinvolti e trasferimenti fuori dall'UE</h2>
+<div class="tabella"><table>
+  <tr><th>Fornitore</th><th>Cosa fa</th><th>Trasferimento fuori dall'UE</th></tr>
+  <tr><td>Google (Gmail)</td><td>Fornisce la tua casella Gmail; l'app legge e invia posta tramite le sue API</td><td>Google dichiara di aderire all'EU-U.S. Data Privacy Framework</td></tr>
+  <tr><td>Microsoft (Outlook / Microsoft 365)</td><td>Fornisce la tua casella Outlook; l'app legge e invia posta tramite Microsoft Graph</td><td>Microsoft dichiara di aderire all'EU-U.S. Data Privacy Framework</td></tr>
+  <tr><td>Vercel Inc. (USA)</td><td>Ospita il sito marketplace-apps.com e il servizio che inoltra il testo al fornitore AI</td><td>Dichiara di aderire all'EU-U.S. Data Privacy Framework e di usare clausole contrattuali tipo</td></tr>
+  <tr><td>NVIDIA Corporation (USA)</td><td>Esegue il modello di intelligenza artificiale sul testo delle email che scegli</td><td>Dichiara di aderire all'EU-U.S. Data Privacy Framework e di usare clausole contrattuali tipo</td></tr>
+  <tr><td>Cloudflare (USA)</td><td>Gestisce la verifica delle licenze</td><td>Dichiara di aderire all'EU-U.S. Data Privacy Framework</td></tr>
+  <tr><td>Resend (USA)</td><td>Invia l'email con la chiave di licenza</td><td>Dichiara di aderire all'EU-U.S. Data Privacy Framework e di usare clausole contrattuali tipo</td></tr>
+  <tr><td>PayPal (Europe) S.a r.l. et Cie, S.C.A. (Lussemburgo)</td><td>Gestisce il pagamento come titolare autonomo, secondo la propria informativa</td><td>Secondo l'informativa di PayPal</td></tr>
+</table></div>
+<p>L'EU-U.S. Data Privacy Framework è il quadro riconosciuto adeguato dalla Commissione europea con la decisione di esecuzione (UE) 2023/1795 del 10 luglio 2023. Lo sviluppatore non vende né cede i dati a nessun altro.</p>
+
+<h2>7. Distribuzione</h2>
+<p>L'app si scarica da <a href="https://marketplace-apps.com">marketplace-apps.com</a> e non dal Play Store. Al momento dell'installazione Android può mostrare un avviso per le app installate da fonti esterne: è normale per qualsiasi app che non arriva dal Play Store.</p>
+
+<h2>8. I tuoi diritti</h2>
+<div class="tabella"><table>
+  <tr><th>Diritto</th><th>Cosa significa</th></tr>
+  <tr><td>Accesso (art. 15)</td><td>Sapere quali tuoi dati tratta lo sviluppatore (licenza e pagamento)</td></tr>
+  <tr><td>Rettifica (art. 16)</td><td>Correggerli</td></tr>
+  <tr><td>Cancellazione (art. 17)</td><td>Chiederne la cancellazione, salvo obblighi di legge</td></tr>
+  <tr><td>Limitazione e opposizione (artt. 18 e 21)</td><td>Limitare il trattamento od opporti a quello basato sul legittimo interesse</td></tr>
+  <tr><td>Portabilità (art. 20)</td><td>Ricevere i dati di licenza in un formato leggibile</td></tr>
+  <tr><td>Reclamo</td><td>Rivolgerti al Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it">garanteprivacy.it</a>)</td></tr>
+</table></div>
+<p>Per esercitarli scrivi a <a href="mailto:premium@marketplace-apps.com">premium@marketplace-apps.com</a>. Le email e i dati nell'app li gestisci direttamente tu: puoi cancellarli in qualsiasi momento. Se sei un cliente o un fornitore di un'azienda che usa OfficeAI e vuoi esercitare i tuoi diritti sulle email che le hai scritto, rivolgiti a quell'azienda, che è titolare di quei dati; lo sviluppatore non può vederle.</p>
+
+<h2>9. Sicurezza</h2>
+<p>Le email sono nella memoria privata dell'app, protetta dal sistema operativo; i token di accesso sono nell'archivio protetto del dispositivo; le comunicazioni con Google, Microsoft e il servizio AI sono cifrate (HTTPS). Ti consigliamo di bloccare il telefono con PIN o impronta. Se perdi il dispositivo, revoca subito l'accesso di OfficeAI dal tuo account Google o Microsoft.</p>
+
+<h2>10. Minori</h2>
+<p>OfficeAI è uno strumento di lavoro per aziende e professionisti e non è rivolto ai minori di 18 anni.</p>
+
+<h2>11. Modifiche a questa informativa</h2>
+<p>Eventuali modifiche saranno pubblicate su questa pagina con la nuova data di aggiornamento. Se cambieranno il fornitore AI o le sue condizioni di conservazione dei dati, l'informativa verrà aggiornata prima che il cambiamento sia attivo.</p>
+
+<h2>12. Contatti</h2>
+<p>Per qualsiasi domanda: <a href="mailto:premium@marketplace-apps.com">premium@marketplace-apps.com</a></p>
 
 </main>
-
-<footer>
-  © 2026 Hubert Montero — OfficeAI
-</footer>
-
+<footer>OfficeAI · un'app della famiglia Officina · marketplace-apps.com</footer>
 </body>
 </html>
